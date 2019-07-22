@@ -1,4 +1,4 @@
-app.set('view engine', 'hbs');
+var hbs = require('hbs');
 // Helpers HBS
 
 hbs.registerHelper('getAnio', () => {
